@@ -30,7 +30,7 @@ if (otherdevices["Présence"] == "Normal") then
             if (otherdevices["Lampe Chambre"] == "On") then
                 commandArray["Lampe Chambre"] = "Off"
             end
-            if (otherdevices["Lampe Chambre"] == "Off") then
+            if (otherdevices["Group Séjour"] == "On") then
                 commandArray["Group Séjour"] = "Off"
             end
         end
